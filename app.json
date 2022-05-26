@@ -1,0 +1,16 @@
+{
+    "name": "test-dlass",
+    "repository": "https://github.com/whyREX69/Downloader-Bot",
+    "stack": "container",
+    "buildpacks": [
+        {
+            "url": "heroku/c#"
+        }
+    ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
